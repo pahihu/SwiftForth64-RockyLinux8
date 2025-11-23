@@ -1,9 +1,9 @@
 
-# patch SwiftForth 4.0.6 to run under Rocky Linux 8
+# patch SwiftForth v4.0.4/v4.0.5/v4.0.6 to run under Rocky Linux 8
 cd $HOME/SwiftForth/bin/linux
 
 xxd sf64 sf64.xxd
-patch < sf64_406_rocky8.patch
+patch < sf64_rocky8.patch
 cp sf64 sf64.org
 xxd -r sf64.xxd sf64
 chmod +x sf64
