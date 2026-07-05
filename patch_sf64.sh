@@ -1,5 +1,5 @@
 
-# patch SwiftForth v4.0.4-v4.1.18 to run under Rocky Linux 8
+# patch SwiftForth v4.0.4-v4.1.8 to run under Rocky Linux 8
 cd $HOME/SwiftForth/bin/linux
 
 xxd sf64 sf64.xxd
